@@ -1,0 +1,131 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.curve{
+    border-radius:0 0 70px 70px;
+}
+.navbar-brand{
+    width:15%;
+}
+#navbarNavDropdown ul li a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    text-transform: uppercase;
+}
+#navbarNavDropdown ul li a:hover{
+    background: #d65106;
+    color: white;
+}
+.active a{
+    border-radius: 5px;
+    color: white !important;
+    background: #d65106;
+}
+
+
+/* ########## About ########## */
+
+
+#about{
+    background-image: url(../img/about-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    text-align: justify;
+}
+#about .opacity{
+    background: rgb(255 255 255 / 65%);
+}
+#about h1{
+    font-size: 2rem !important;
+}
+#about .theme-color{
+    color: #d65106;
+}
+.btncolor{
+    background: #d65106 !important;
+    color: white !important;
+}
+#about .shadow{
+    -webkit-box-shadow: 20px 20px 0px 1px rgba(214,81,6,1)  !important;
+    -moz-box-shadow: 20px 20px 0px 1px rgba(214,81,6,1)!important;
+    box-shadow: 20px 20px 0px 1px rgba(214,81,6,1) !important;
+}
+
+
+/* ########## Banner ########## */
+
+
+#banner{
+    background-image: url(../img/qt-bg.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    font-size: 30px;
+    color: white;
+    height: 350px;
+}
+#banner .opacity{
+    background: rgb(0 0 0 / 65%);
+}
+#banner .banner-text{
+    height: 350px;
+}
+
+
+/* ########## Menu-item ########## */
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: white;
+    background: #d65106;
+}
+.nav-pills .nav-link{
+    color: black;
+}
+
+
+/* ########## Gallary ########### */
+
+
+#gallary{
+    padding-top: 70px;
+}
+#gallary img{
+    margin-bottom: 30px;
+    border: 2px solid #d65106;
+}
+
+
+/* ########## Review ########## */
+
+
+#review{
+    margin-top: 100px;
+}
+#review #carouselExampleControls .img-box{
+    height: 135px;
+    width: 135px;
+}
+#review #carouselExampleControls h2{
+    color: #d65106;
+    padding-top: 30px;
+}
+#review .carousel-control-prev, #review .carousel-control-next{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin: auto;
+    background: #d65106;
+}
+
+
+/* ########## Contact ########## */
+
+
+#contact{
+    background: #d65106;
+    border-radius: 50px;
+}
+
