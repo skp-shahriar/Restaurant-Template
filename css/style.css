@@ -24,6 +24,35 @@ body{
 }
 
 
+/* ########### Slider ########## */
+
+
+#main-slider .carousel-control-prev, #main-slider .carousel-control-next{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin: auto;
+    background: #d65106;
+}
+#main-slider .carousel-caption{
+    text-align: left;
+    width: 50%;
+    bottom: 35%;
+}
+#main-slider .carousel-caption h1{
+    color: #d65106;
+}
+#main-slider .btncolor{
+    background: #d65106;
+    color: white;
+}
+#main-slider .btncolor:hover{
+    background: white;
+    color: #d65106;
+    border: 2px solid #d65106;
+}
+
+
 /* ########## About ########## */
 
 
@@ -43,9 +72,14 @@ body{
 #about .theme-color{
     color: #d65106;
 }
-.btncolor{
+#about .btncolor{
     background: #d65106 !important;
     color: white !important;
+}
+#about .btncolor:hover{
+    background: white !important;
+    color: #d65106 !important;
+    border: 2px solid #d65106;
 }
 #about .shadow{
     -webkit-box-shadow: 20px 20px 0px 1px rgba(214,81,6,1)  !important;
@@ -83,6 +117,8 @@ body{
 }
 .nav-pills .nav-link{
     color: black;
+    border: 2px solid #d65106;
+    margin-top: 5px;
 }
 
 
@@ -126,6 +162,91 @@ body{
 
 #contact{
     background: #d65106;
-    border-radius: 50px;
+    border-radius: 100px;
+    margin-top: 80px;
+}
+#contact .bg{
+    background: white;
+    color: #d65106;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
+}
+#contact .arrow{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+#contact p{
+    color: white;
+    margin: 0;
+}
+#contact h5{
+    color: white;
+}
+#contact .contant{
+    padding: 30px 0;
 }
 
+
+/* ########## Footer ########## */
+
+
+#footer{
+    background-image: url(../img/footer-bg.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+    border-bottom: 4px solid rgb(207, 166, 113);
+}
+#footer .opacity{
+    background: rgb(0 0 0 / 65%);
+}
+#footer h4{
+    margin: 50px 0 20px 0;
+    border-bottom: 2px solid rgba(207, 166, 113, 0.5);
+    padding-bottom: 10px;
+}
+#footer #email{
+    height: 50px;
+}
+#footer #button{
+    background: #d65106;
+    color: white;
+    margin-top: 10px;
+}
+#footer #button:hover{
+    background: white;
+    color: #d65106;
+}
+#footer .icon{
+    margin-top: 15px;
+}
+#footer i{
+    color: #d65106;
+    background: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 9px;
+}
+#footer i:hover{
+    background: #d65106;
+    color: white;
+}
+
+
+/* Copyright */
+
+#copyright{
+    height: 50px;
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
