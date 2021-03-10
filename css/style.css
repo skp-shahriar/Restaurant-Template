@@ -45,6 +45,7 @@ body{
 #main-slider .btncolor{
     background: #d65106;
     color: white;
+    border: 2px solid #d65106;
 }
 #main-slider .btncolor:hover{
     background: white;
@@ -249,4 +250,26 @@ body{
     color: white;
     padding: 10px;
     text-align: center;
+}
+
+
+/* ########## Tag ########## */
+
+
+#tag{
+    background-image: url(../img/all-bg.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+#tag .overlay{
+    background: rgb(0 0 0 / 65%);
+    height: 300px;
+}
+#tag .overlay h1{
+    text-align: center;
+    width: 100%;
+    padding-top: 8% ;
 }
