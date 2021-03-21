@@ -273,3 +273,22 @@ body{
     width: 100%;
     padding-top: 8% ;
 }
+
+
+
+
+/* form */
+#msg label{
+    color: #d65106;
+    font-size: 30px;
+}
+#msg #button{
+    color: white;
+    background: #d65106;
+    border: 2px solid #d65106;
+}
+#msg #button:hover{
+    color: #d65106;
+    background: white;
+    border: 2px solid #d65106;
+}
